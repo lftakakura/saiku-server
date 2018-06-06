@@ -1,0 +1,118 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: circleci
+Class-Path: cas-client-integration-tomcat-common-3.3.2.jar cas-client-
+ core-3.3.2.jar opensaml-2.5.1-1.jar openws-1.4.2-1.jar xmltooling-1.3
+ .2-1.jar log4j-over-slf4j-1.6.1.jar jul-to-slf4j-1.6.1.jar bcprov-jdk
+ 15-1.45.jar xmlsec-1.4.4.jar not-yet-commons-ssl-0.3.9.jar velocity-1
+ .5.jar esapi-2.0GA.jar xercesImpl-2.10.0.jar xml-resolver-1.2.jar slf
+ 4j-api-1.6.4.jar cas-client-integration-tomcat-v7-3.3.2.jar spring-se
+ curity-cas-4.0.1.RELEASE.jar spring-security-core-4.0.1.RELEASE.jar a
+ opalliance-1.0.jar spring-security-web-4.0.1.RELEASE.jar spring-beans
+ -4.1.6.RELEASE.jar spring-context-4.1.6.RELEASE.jar spring-core-4.1.6
+ .RELEASE.jar spring-web-4.1.6.RELEASE.jar spring-security-taglibs-4.0
+ .1.RELEASE.jar spring-security-acl-4.0.1.RELEASE.jar spring-aop-4.1.6
+ .RELEASE.jar spring-expression-4.1.6.RELEASE.jar saiku-service-3.15.j
+ ar licenseserver-core-1.0-20161007.100903-4.jar olap4j-xmlaserver-1.2
+ .0.jar olap4j-TRUNK-20161212.154624-1.jar mondrian-4.3.0.1.1-SPARK.ja
+ r jackson-databind-2.5.1.jar jackson-annotations-2.5.1.jar poi-3.7.ja
+ r poi-ooxml-3.7.jar poi-ooxml-schemas-3.7.jar xmlbeans-2.3.0.jar gero
+ nimo-stax-api_1.0_spec-1.0.jar dom4j-1.6.1.jar jdom-1.1.jar slf4j-log
+ 4j12-1.6.4.jar log4j-1.2.14.jar jcr-2.0.jar mockito-all-1.8.5.jar ser
+ enity-jbehave-1.0.23.jar lambdaj-2.3.3.jar hamcrest-all-1.3.jar cglib
+ -nodep-2.2.jar jbehave-junit-runner-1.2.0.jar groovy-all-2.3.3.jar re
+ flections-0.9.8.jar javassist-3.12.1.GA.jar xstream-1.4.5.jar xmlpull
+ -1.1.3.1.jar xpp3_min-1.1.4c.jar jackrabbit-core-2.8.0.jar concurrent
+ -1.3.4.jar jackrabbit-data-2.8.0.jar jackrabbit-data-2.8.0-tests.jar 
+ jackrabbit-spi-commons-2.8.0.jar jackrabbit-spi-2.8.0.jar tika-core-1
+ .3.jar lucene-core-3.6.0.jar derby-10.5.3.0_1.jar jcl-over-slf4j-1.7.
+ 4.jar jackrabbit-api-2.8.0.jar commons-vfs-1.0.jar jackrabbit-webdav-
+ 2.8.0.jar hibernate-jpa-2.1-api-1.0.0.Final.jar serenity-core-1.0.58.
+ jar guice-3.0.jar javax.inject-1.jar cglib-2.2.jar asm-3.1.jar asm-5.
+ 0.3.jar objenesis-2.1.jar cucumber-core-1.2.2.jar cucumber-html-0.2.3
+ .jar cucumber-jvm-deps-1.0.3.jar gherkin-2.12.2.jar serenity-report-r
+ esources-1.0.58.jar gson-2.3.1.jar operadriver-1.5.jar operalaunchers
+ -1.1.jar commons-jxpath-1.3.jar ini4j-0.5.2.jar selenium-server-2.46.
+ 0.jar bcprov-jdk15on-1.48.jar bcpkix-jdk15on-1.48.jar mx4j-tools-3.0.
+ 1.jar servlet-api-2.5-6.1.9.jar jetty-repacked-7.6.1.jar jetty-rc-rep
+ acked-5.jar jcip-annotations-1.0.jar selenium-java-2.46.0.jar seleniu
+ m-chrome-driver-2.46.0.jar selenium-remote-driver-2.46.0.jar selenium
+ -api-2.46.0.jar selenium-htmlunit-driver-2.46.0.jar selenium-firefox-
+ driver-2.46.0.jar commons-exec-1.3.jar selenium-ie-driver-2.46.0.jar 
+ jna-4.1.0.jar jna-platform-4.1.0.jar selenium-safari-driver-2.46.0.ja
+ r selenium-support-2.46.0.jar webbit-0.4.14.jar netty-3.5.2.Final.jar
+  selenium-leg-rc-2.46.0.jar snakeyaml-1.8.jar phantomjsdriver-1.2.1.j
+ ar java-client-2.1.0.jar groovy-2.3.9.jar opencsv-2.0.jar commons-bea
+ nutils-core-1.8.3.jar joda-time-2.7.jar commons-lang3-3.3.2.jar freem
+ arker-2.3.21.jar jxl-2.6.12.jar hamcrest-core-1.3.jar hamcrest-librar
+ y-1.3.jar htmlunit-2.17.jar htmlunit-core-js-2.17.jar nekohtml-1.9.22
+ .jar cssparser-0.9.16.jar sac-1.3.jar websocket-client-9.2.11.v201505
+ 29.jar jetty-util-9.2.11.v20150529.jar jetty-io-9.2.11.v20150529.jar 
+ websocket-common-9.2.11.v20150529.jar websocket-api-9.2.11.v20150529.
+ jar httpmime-4.4.1.jar fluentlenium-core-0.10.2.jar filters-2.0.235.j
+ ar asciidoctor-java-integration-0.1.3.jar jruby-complete-1.7.4.jar jc
+ ommander-1.30.jar validation-api-1.1.0.Final.jar hibernate-validator-
+ 5.1.1.Final.jar classmate-1.0.0.jar javax.el-api-2.2.4.jar javax.el-2
+ .2.4.jar awaitility-1.6.3.jar jbehave-core-3.9.3.jar hamcrest-integra
+ tion-1.3.jar plexus-utils-3.0.10.jar paranamer-2.4.jar jackrabbit-jcr
+ -server-2.8.0.jar commons-fileupload-1.2.1.jar clover-3.3.0.jar commo
+ ns-io-2.4.jar spring-jdbc-4.1.6.RELEASE.jar spring-tx-4.1.6.RELEASE.j
+ ar jackson-core-2.5.1.jar jackrabbit-jcr-commons-2.8.0.jar commons-la
+ ng-2.4.jar commons-dbcp-1.4.jar commons-pool-1.4.jar xml-apis-1.3.04.
+ jar hibernate-core-4.3.5.Final.jar jboss-logging-3.1.3.GA.jar jboss-l
+ ogging-annotations-1.2.0.Beta1.jar jboss-transaction-api_1.2_spec-1.0
+ .0.Final.jar hibernate-commons-annotations-4.0.4.Final.jar javassist-
+ 3.18.1-GA.jar antlr-2.7.7.jar jandex-1.1.0.Final.jar org.osgi.core-1.
+ 0.0.jar marklogic-xcc-8.0.6.jar hive-jdbc-0.13.1.jar hive-common-0.13
+ .1.jar hive-metastore-0.13.1.jar bonecp-0.8.0.RELEASE.jar datanucleus
+ -api-jdo-3.2.6.jar datanucleus-core-3.2.10.jar datanucleus-rdbms-3.2.
+ 9.jar jdo-api-3.0.1.jar jta-1.1.jar antlr-runtime-3.4.jar stringtempl
+ ate-3.2.1.jar libfb303-0.9.0.jar hive-serde-0.13.1.jar hive-service-0
+ .13.1.jar jpam-1.1.jar jetty-all-7.6.0.v20120127.jar geronimo-jta_1.1
+ _spec-1.1.1.jar mail-1.4.1.jar activation-1.1.jar geronimo-jaspic_1.0
+ _spec-1.0.jar geronimo-annotation_1.0_spec-1.1.1.jar asm-commons-3.1.
+ jar asm-tree-3.1.jar hive-exec-0.13.1.jar hive-ant-0.13.1.jar velocit
+ y-1.5.jar oro-2.0.8.jar ST4-4.0.4.jar ant-1.9.1.jar ant-launcher-1.9.
+ 1.jar stax-api-1.0.1.jar commons-logging-1.1.3.jar httpclient-4.2.5.j
+ ar httpcore-4.3-alpha1.jar libthrift-0.9.0.jar hive-cli-1.0.0.jar hiv
+ e-shims-1.0.0.jar hive-shims-common-1.0.0.jar hive-shims-0.20-1.0.0.j
+ ar hive-shims-common-secure-1.0.0.jar curator-framework-2.6.0.jar cur
+ ator-client-2.6.0.jar hive-shims-0.20S-1.0.0.jar hive-shims-0.23-1.0.
+ 0.jar commons-cli-1.2.jar jline-0.9.94.jar saiku-web-3.15.jar jersey-
+ core-1.19.jar jsr311-api-1.1.1.jar jersey-servlet-1.19.jar miredot-an
+ notations-1.3.1.jar fop-2.2.jar batik-awt-util-1.9.jar batik-gvt-1.9.
+ jar batik-extension-1.9.jar fontbox-2.0.4.jar commons-collections-3.2
+ .1.jar spring-security-config-4.0.1.RELEASE.jar batik-transcoder-1.8.
+ jar batik-anim-1.8.jar batik-dom-1.8.jar batik-svggen-1.8.jar batik-u
+ til-1.8.jar batik-xml-1.8.jar xml-apis-ext-1.3.04.jar batik-codec-1.8
+ .jar batik-ext-1.8.jar batik-svg-dom-1.8.jar batik-css-1.8.jar batik-
+ parser-1.8.jar batik-bridge-1.8.jar xalan-2.7.0.jar batik-script-1.7.
+ jar avalon-framework-api-4.2.0.jar avalon-framework-impl-4.2.0.jar xm
+ lgraphics-commons-2.2.jar iText-4.2.0.jar htmlcleaner-2.10.jar jdom2-
+ 2.0.5.jar rhino-1.7R5.jar pdfbox-app-2.0.0.jar saiku-olap-util-3.15.j
+ ar eigenbase-properties-1.1.4.jar eigenbase-resgen-1.3.5.jar eigenbas
+ e-xom-1.3.4.jar olap4j-xmla-TRUNK-20161212.154747-1.jar saiku-query-0
+ .4-20160318.115041-1.jar jersey-spring-1.19.jar hazelcast-spring-3.6.
+ 2.jar hazelcast-wm-3.6.2.jar jersey-multipart-1.19.jar mimepull-1.9.4
+ .jar javax.servlet-api-3.1.0.jar hsqldb-1.8.0.10.jar mysql-connector-
+ java-5.1.17.jar commons-math-1.2.jar jtds-1.3.1.jar postgresql-9.3-11
+ 02-jdbc41.jar hadoop-common-2.4.0.jar hadoop-annotations-2.4.0.jar gu
+ ava-11.0.2.jar commons-math3-3.1.1.jar xmlenc-0.52.jar commons-httpcl
+ ient-20020423.jar commons-codec-1.4.jar commons-net-3.1.jar servlet-a
+ pi-2.5.jar jetty-6.1.26.jar jetty-util-6.1.26.jar jersey-json-1.19.ja
+ r jettison-1.2.jar jaxb-impl-2.2.3-1.jar jaxb-api-2.2.2.jar stax-api-
+ 1.0-2.jar jackson-jaxrs-1.9.2.jar jackson-xc-1.9.2.jar jersey-server-
+ 1.19.jar jasper-compiler-5.5.23.jar jasper-runtime-5.5.23.jar jsp-api
+ -2.1.jar commons-el-1.0.jar jets3t-0.9.0.jar java-xmlbuilder-0.4.jar 
+ commons-configuration-1.6.jar commons-digester-1.8.jar commons-beanut
+ ils-1.7.0.jar jackson-core-asl-1.8.8.jar jackson-mapper-asl-1.8.8.jar
+  avro-1.7.4.jar snappy-java-1.0.4.1.jar protobuf-java-2.5.0.jar hadoo
+ p-auth-2.4.0.jar jsch-0.1.42.jar jsr305-1.3.9.jar zookeeper-3.4.5.jar
+  commons-compress-1.4.1.jar xz-1.0.jar jackson-jaxrs-json-provider-2.
+ 5.1.jar jackson-jaxrs-base-2.5.1.jar jackson-module-jaxb-annotations-
+ 2.5.1.jar h2-1.4.188.jar spring-ldap-core-2.0.4.RELEASE.jar spring-se
+ curity-ldap-4.0.1.RELEASE.jar hazelcast-3.6.2.jar hazelcast-client-3.
+ 6.2.jar
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_141
+
