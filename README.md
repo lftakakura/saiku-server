@@ -66,6 +66,8 @@ Change **ROLE_ADMIN** by the value of **populator.groupRoleAttribute** from the 
 
 Example
 ```bash
+docker build -t saiku-server
+
 docker run -p 8080:8080 \
 -e CONTEXT_SOURCE_PROVIDER_URL="LDAP_SERVER\:389\/dc\=PLACEHOLDER\,dc\=PLACEHOLDER" \
 -e CONTEXT_SOURCE_USER_DN=USERNAME@domain.com.br \
@@ -77,6 +79,7 @@ docker run -p 8080:8080 \
 -e POPULATOR_GROUP_SEARCH_BASE="CN=GROUP_NAME,OU=PLACEHOLDER,OU=PLACEHOLDER" \
 -e POPULATOR_GROUP_SEARCH_FILTER="member={0}" \
 -e ROLE_ADMIN="GROUP_NAME" \
+saiku-server
 ```
 
 **Don't forget to break the reserved chars when filling the env vars above, otherwise the script configure_ldap.sh will not execute correctly!**
