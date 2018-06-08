@@ -7,7 +7,7 @@ This project is based on [Meteorite BI's saiku-server](https://github.com/OSBI/s
 
 ## Docker  
   To deploy Saiku server with docker, a Dockerfile is provided. The server runs on port 8080 (change it on **saiku-server/tomcat/conf/server.xml**).  
-  Just build it and do a **docker run**:  
+  Just build it and do a **docker run**:
   
 Example  
 ```bash  
@@ -34,6 +34,11 @@ For volume persistence, copy the folder saiku_volume and add the flag
 
 
 **Don't forget to break the reserved chars when filling the env vars above, otherwise the script configure_ldap.sh will not execute correctly!**
+
+
+### Logs
+
+Logs can be found at **/root/saiku-server/tomcat/logs** inside the container running. Look for catalina.out for tomcat logs.
 
 ## Configuration (non docker)  
   
