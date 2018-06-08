@@ -25,8 +25,14 @@ docker run -p 8080:8080 \
 -e POPULATOR_GROUP_SEARCH_FILTER="member={0}" \  
 -e ROLE_ADMIN="GROUP_NAME" \  
 saiku-server  
-```  
-  
+```
+
+
+For volume persistence, copy the folder saiku_volume and add the flag
+```bash
+-v /path/to/saiku_volume/:/root/saiku-server/repository/
+
+
 **Don't forget to break the reserved chars when filling the env vars above, otherwise the script configure_ldap.sh will not execute correctly!**
 
 ## Configuration (non docker)  
